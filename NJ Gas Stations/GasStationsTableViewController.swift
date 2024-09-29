@@ -51,6 +51,14 @@ class GasStationsTableViewController: UITableViewController {
         cell.price.text = String(gasStations[indexPath.row].price)
         // set image based on search
         
+        let searchString = gasStations[indexPath.row].name.lowercased().replacingOccurrences(of: " ", with: "")
+        for assetName in gasStationModel.imageAssetNames {
+            if (searchString.contains(assetName)) {
+                cell.logo.image = UIImage(named:assetName)
+                break
+            }
+        }
+        
         return cell
     }
     

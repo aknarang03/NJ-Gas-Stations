@@ -34,10 +34,31 @@ struct GasPump:Codable {
     
 }
 
-
 class GasPumpsModel {
     
     var gasPumps:[GasPump] = []
+    
+    var imageAssetNames = [
+        "bp",
+        "chevron",
+        "citgo",
+        "delta",
+        "exxon",
+        "exxonmobil",
+        "generic",
+        "getty",
+        "gulf",
+        "luke",
+        "marathon",
+        "mobil",
+        "philips",
+        "quickchek",
+        "shell",
+        "speedway",
+        "sunoco",
+        "texaco",
+        "wawa"
+    ]
         
     static let sharedInstance = GasPumpsModel() // make the class object a Singleton
         
