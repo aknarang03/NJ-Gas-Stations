@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4082A7892CA99DD2009EBFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4082A76A2CA99DD0009EBFDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4082A7712CA99DD0009EBFDE;
+			remoteInfo = "NJ Gas Stations";
+		};
+		4082A7932CA99DD2009EBFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4082A76A2CA99DD0009EBFDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4082A7712CA99DD0009EBFDE;
+			remoteInfo = "NJ Gas Stations";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4082A7722CA99DD0009EBFDE /* NJ Gas Stations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NJ Gas Stations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4082A7882CA99DD2009EBFDE /* NJ Gas StationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NJ Gas StationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4082A7922CA99DD2009EBFDE /* NJ Gas StationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NJ Gas StationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4082A79A2CA99DD2009EBFDE /* Exceptions for "NJ Gas Stations" folder in "NJ Gas Stations" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4082A7712CA99DD0009EBFDE /* NJ Gas Stations */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4082A7742CA99DD0009EBFDE /* NJ Gas Stations */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4082A79A2CA99DD2009EBFDE /* Exceptions for "NJ Gas Stations" folder in "NJ Gas Stations" target */,
+			);
+			path = "NJ Gas Stations";
+			sourceTree = "<group>";
+		};
+		4082A78B2CA99DD2009EBFDE /* NJ Gas StationsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "NJ Gas StationsTests";
+			sourceTree = "<group>";
+		};
+		4082A7952CA99DD2009EBFDE /* NJ Gas StationsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "NJ Gas StationsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4082A76F2CA99DD0009EBFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4082A7852CA99DD2009EBFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4082A78F2CA99DD2009EBFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4082A7692CA99DD0009EBFDE = {
+			isa = PBXGroup;
+			children = (
+				4082A7742CA99DD0009EBFDE /* NJ Gas Stations */,
+				4082A78B2CA99DD2009EBFDE /* NJ Gas StationsTests */,
+				4082A7952CA99DD2009EBFDE /* NJ Gas StationsUITests */,
+				4082A7732CA99DD0009EBFDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4082A7732CA99DD0009EBFDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4082A7722CA99DD0009EBFDE /* NJ Gas Stations.app */,
+				4082A7882CA99DD2009EBFDE /* NJ Gas StationsTests.xctest */,
+				4082A7922CA99DD2009EBFDE /* NJ Gas StationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4082A7712CA99DD0009EBFDE /* NJ Gas Stations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4082A79B2CA99DD2009EBFDE /* Build configuration list for PBXNativeTarget "NJ Gas Stations" */;
+			buildPhases = (
+				4082A76E2CA99DD0009EBFDE /* Sources */,
+				4082A76F2CA99DD0009EBFDE /* Frameworks */,
+				4082A7702CA99DD0009EBFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4082A7742CA99DD0009EBFDE /* NJ Gas Stations */,
+			);
+			name = "NJ Gas Stations";
+			packageProductDependencies = (
+			);
+			productName = "NJ Gas Stations";
+			productReference = 4082A7722CA99DD0009EBFDE /* NJ Gas Stations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4082A7872CA99DD2009EBFDE /* NJ Gas StationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4082A7A02CA99DD2009EBFDE /* Build configuration list for PBXNativeTarget "NJ Gas StationsTests" */;
+			buildPhases = (
+				4082A7842CA99DD2009EBFDE /* Sources */,
+				4082A7852CA99DD2009EBFDE /* Frameworks */,
+				4082A7862CA99DD2009EBFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4082A78A2CA99DD2009EBFDE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4082A78B2CA99DD2009EBFDE /* NJ Gas StationsTests */,
+			);
+			name = "NJ Gas StationsTests";
+			packageProductDependencies = (
+			);
+			productName = "NJ Gas StationsTests";
+			productReference = 4082A7882CA99DD2009EBFDE /* NJ Gas StationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4082A7912CA99DD2009EBFDE /* NJ Gas StationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4082A7A32CA99DD2009EBFDE /* Build configuration list for PBXNativeTarget "NJ Gas StationsUITests" */;
+			buildPhases = (
+				4082A78E2CA99DD2009EBFDE /* Sources */,
+				4082A78F2CA99DD2009EBFDE /* Frameworks */,
+				4082A7902CA99DD2009EBFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4082A7942CA99DD2009EBFDE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4082A7952CA99DD2009EBFDE /* NJ Gas StationsUITests */,
+			);
+			name = "NJ Gas StationsUITests";
+			packageProductDependencies = (
+			);
+			productName = "NJ Gas StationsUITests";
+			productReference = 4082A7922CA99DD2009EBFDE /* NJ Gas StationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4082A76A2CA99DD0009EBFDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					4082A7712CA99DD0009EBFDE = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					4082A7872CA99DD2009EBFDE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 4082A7712CA99DD0009EBFDE;
+					};
+					4082A7912CA99DD2009EBFDE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 4082A7712CA99DD0009EBFDE;
+					};
+				};
+			};
+			buildConfigurationList = 4082A76D2CA99DD0009EBFDE /* Build configuration list for PBXProject "NJ Gas Stations" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4082A7692CA99DD0009EBFDE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4082A7732CA99DD0009EBFDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4082A7712CA99DD0009EBFDE /* NJ Gas Stations */,
+				4082A7872CA99DD2009EBFDE /* NJ Gas StationsTests */,
+				4082A7912CA99DD2009EBFDE /* NJ Gas StationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4082A7702CA99DD0009EBFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4082A7862CA99DD2009EBFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4082A7902CA99DD2009EBFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4082A76E2CA99DD0009EBFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4082A7842CA99DD2009EBFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4082A78E2CA99DD2009EBFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4082A78A2CA99DD2009EBFDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4082A7712CA99DD0009EBFDE /* NJ Gas Stations */;
+			targetProxy = 4082A7892CA99DD2009EBFDE /* PBXContainerItemProxy */;
+		};
+		4082A7942CA99DD2009EBFDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4082A7712CA99DD0009EBFDE /* NJ Gas Stations */;
+			targetProxy = 4082A7932CA99DD2009EBFDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4082A79C2CA99DD2009EBFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YF9YDYNP68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NJ Gas Stations/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.monmouth.s1328134.NJ-Gas-Stations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4082A79D2CA99DD2009EBFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YF9YDYNP68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NJ Gas Stations/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.monmouth.s1328134.NJ-Gas-Stations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4082A79E2CA99DD2009EBFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4082A79F2CA99DD2009EBFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4082A7A12CA99DD2009EBFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YF9YDYNP68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.monmouth.s1328134.NJ-Gas-StationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NJ Gas Stations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NJ Gas Stations";
+			};
+			name = Debug;
+		};
+		4082A7A22CA99DD2009EBFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YF9YDYNP68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.monmouth.s1328134.NJ-Gas-StationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NJ Gas Stations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NJ Gas Stations";
+			};
+			name = Release;
+		};
+		4082A7A42CA99DD2009EBFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YF9YDYNP68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.monmouth.s1328134.NJ-Gas-StationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NJ Gas Stations";
+			};
+			name = Debug;
+		};
+		4082A7A52CA99DD2009EBFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YF9YDYNP68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.monmouth.s1328134.NJ-Gas-StationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NJ Gas Stations";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4082A76D2CA99DD0009EBFDE /* Build configuration list for PBXProject "NJ Gas Stations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4082A79E2CA99DD2009EBFDE /* Debug */,
+				4082A79F2CA99DD2009EBFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4082A79B2CA99DD2009EBFDE /* Build configuration list for PBXNativeTarget "NJ Gas Stations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4082A79C2CA99DD2009EBFDE /* Debug */,
+				4082A79D2CA99DD2009EBFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4082A7A02CA99DD2009EBFDE /* Build configuration list for PBXNativeTarget "NJ Gas StationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4082A7A12CA99DD2009EBFDE /* Debug */,
+				4082A7A22CA99DD2009EBFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4082A7A32CA99DD2009EBFDE /* Build configuration list for PBXNativeTarget "NJ Gas StationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4082A7A42CA99DD2009EBFDE /* Debug */,
+				4082A7A52CA99DD2009EBFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4082A76A2CA99DD0009EBFDE /* Project object */;
+}
