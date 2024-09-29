@@ -48,6 +48,7 @@ class GasStationsTableViewController: UITableViewController {
 
         cell.city.text = gasStations[indexPath.row].city
         cell.name.text = gasStations[indexPath.row].name
+        cell.price.text = String(gasStations[indexPath.row].price)
         // set image based on search
         
         return cell
