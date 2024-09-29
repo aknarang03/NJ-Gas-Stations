@@ -9,6 +9,12 @@ import UIKit
 
 class GasStationsTableViewCell: UITableViewCell {
     
+    @IBOutlet weak var city: UILabel!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var go: UIImageView!
+    @IBOutlet weak var price: UILabel!
+    @IBOutlet weak var logo: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

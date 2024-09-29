@@ -10,6 +10,14 @@ import UIKit
 class GasStationsTableViewController: UITableViewController {
     
     let gasStationModel = GasPumpsModel.sharedInstance
+    var gasStations: [GasPump] = []
+    var selectedStationId: Int?
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        gasStations = gasStationModel.gasPumps
+        self.tableView.reloadData()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,23 +33,26 @@ class GasStationsTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return gasStations.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "gasStationCell", for: indexPath) as! GasStationsTableViewCell
 
-        // Configure the cell...
-
+        cell.city.text = gasStations[indexPath.row].city
+        cell.name.text = gasStations[indexPath.row].name
+        // set image based on search
+        
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
