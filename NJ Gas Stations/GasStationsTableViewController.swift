@@ -8,7 +8,9 @@
 import UIKit
 
 class GasStationsTableViewController: UITableViewController {
-
+    
+    let gasStationModel = GasPumpsModel.sharedInstance
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

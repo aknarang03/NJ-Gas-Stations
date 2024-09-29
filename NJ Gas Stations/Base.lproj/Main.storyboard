@@ -23,45 +23,44 @@
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="137"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="vFI-Id-20V">
-                                            <rect key="frame" x="0.0" y="11" width="393" height="115"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bp" translatesAutoresizingMaskIntoConstraints="NO" id="7YB-JU-3AZ" userLabel="Logo">
-                                                    <rect key="frame" x="0.0" y="0.0" width="341.66666666666669" height="115"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFE-k8-xvl" userLabel="Price">
-                                                    <rect key="frame" x="346.66666666666669" y="0.0" width="0.0" height="115"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8UU-Kg-hNB">
-                                                    <rect key="frame" x="351.66666666666669" y="0.0" width="41.333333333333314" height="115"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBw-g5-B4Y" userLabel="Name">
-                                                            <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="94.666666666666671"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aeF-EX-VLR" userLabel="Location">
-                                                            <rect key="frame" x="0.0" y="94.666666666666671" width="41.333333333333336" height="20.333333333333329"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                </stackView>
-                                            </subviews>
-                                        </stackView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VG6-aq-pT1" userLabel="Price">
+                                            <rect key="frame" x="196" y="61" width="87" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k10-G1-b32" userLabel="City">
+                                            <rect key="frame" x="195" y="16" width="119" height="37"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ys8-zI-Pbz" userLabel="Name">
+                                            <rect key="frame" x="110" y="44" width="78" height="48"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bp" translatesAutoresizingMaskIntoConstraints="NO" id="fxQ-ao-Ibf" userLabel="Logo">
+                                            <rect key="frame" x="20" y="27" width="82" height="83"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrowtriangle.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cF1-re-kOt" userLabel="Go">
+                                            <rect key="frame" x="364" y="55.666666666666629" width="21" height="26"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstItem="vFI-Id-20V" firstAttribute="centerX" secondItem="aaM-ND-auQ" secondAttribute="centerX" id="bAN-XX-sgb"/>
-                                        <constraint firstItem="vFI-Id-20V" firstAttribute="leading" secondItem="aaM-ND-auQ" secondAttribute="leading" id="bcd-AW-yN7"/>
-                                        <constraint firstItem="vFI-Id-20V" firstAttribute="top" secondItem="aaM-ND-auQ" secondAttribute="topMargin" id="oqW-5Q-h1E"/>
-                                        <constraint firstItem="vFI-Id-20V" firstAttribute="centerY" secondItem="aaM-ND-auQ" secondAttribute="centerY" id="u9L-5I-oMs"/>
-                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="city" destination="k10-G1-b32" id="Dd4-DJ-TxY"/>
+                                    <outlet property="go" destination="cF1-re-kOt" id="5bb-Px-Koe"/>
+                                    <outlet property="logo" destination="fxQ-ao-Ibf" id="W7S-1c-YzP"/>
+                                    <outlet property="name" destination="ys8-zI-Pbz" id="6g6-jM-0kN"/>
+                                    <outlet property="price" destination="VG6-aq-pT1" id="TC1-HL-O6j"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -95,6 +94,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="arrowtriangle.right" catalog="system" width="128" height="113"/>
         <image name="bp" width="650" height="660"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
