@@ -23,29 +23,29 @@
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="137"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="vFI-Id-20V">
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="vFI-Id-20V">
                                             <rect key="frame" x="0.0" y="11" width="393" height="115"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7YB-JU-3AZ" userLabel="Logo">
-                                                    <rect key="frame" x="0.0" y="0.0" width="289" height="115"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bp" translatesAutoresizingMaskIntoConstraints="NO" id="7YB-JU-3AZ" userLabel="Logo">
+                                                    <rect key="frame" x="0.0" y="0.0" width="341.66666666666669" height="115"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFE-k8-xvl" userLabel="Price">
-                                                    <rect key="frame" x="294" y="0.0" width="46.333333333333314" height="115"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFE-k8-xvl" userLabel="Price">
+                                                    <rect key="frame" x="346.66666666666669" y="0.0" width="0.0" height="115"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8UU-Kg-hNB">
-                                                    <rect key="frame" x="345.33333333333331" y="0.0" width="47.666666666666686" height="115"/>
+                                                    <rect key="frame" x="351.66666666666669" y="0.0" width="41.333333333333314" height="115"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBw-g5-B4Y" userLabel="Name">
-                                                            <rect key="frame" x="0.0" y="0.0" width="47.666666666666664" height="20.333333333333332"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="94.666666666666671"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aeF-EX-VLR" userLabel="Location">
-                                                            <rect key="frame" x="0.0" y="20.333333333333336" width="47.666666666666664" height="94.666666666666657"/>
+                                                            <rect key="frame" x="0.0" y="94.666666666666671" width="41.333333333333336" height="20.333333333333329"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -95,6 +95,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bp" width="650" height="660"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
