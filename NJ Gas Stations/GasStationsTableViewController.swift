@@ -48,7 +48,7 @@ class GasStationsTableViewController: UITableViewController {
 
         cell.city.text = gasStations[indexPath.row].city
         cell.name.text = gasStations[indexPath.row].name
-        cell.price.text = String(gasStations[indexPath.row].price)
+        cell.price.text = String(format:"$%.2f",gasStations[indexPath.row].price)
         // set image based on search
         
         let searchString = gasStations[indexPath.row].name.lowercased().replacingOccurrences(of: " ", with: "")
