@@ -55,6 +55,7 @@ class GasStationsTableViewController: UITableViewController {
         cell.logo.image = UIImage(named:assetName)
         
         return cell
+        
     }
     
 
