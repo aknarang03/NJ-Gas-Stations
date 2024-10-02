@@ -86,6 +86,7 @@
                                     <outlet property="logo" destination="pPv-3l-4dP" id="6Do-WZ-xyM"/>
                                     <outlet property="name" destination="KpN-bm-7g6" id="w9S-qd-5Lz"/>
                                     <outlet property="price" destination="4Wi-3I-27w" id="2lI-ED-tCo"/>
+                                    <segue destination="lta-9r-CCf" kind="show" id="Vpe-Zt-R6H"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -98,7 +99,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PoA-Tb-xB8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="981" y="-75"/>
+            <point key="canvasLocation" x="981" y="-82"/>
         </scene>
         <!--Gas Station Details-->
         <scene sceneID="ONm-FH-BjU">
@@ -109,7 +110,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="KQ5-I4-P8r" userLabel="Price Slider">
-                                <rect key="frame" x="25" y="349" width="216" height="31"/>
+                                <rect key="frame" x="43" y="349" width="213" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tc-Mt-3WO" userLabel="Price">
@@ -120,27 +121,28 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAH-F6-MeW" userLabel="Address">
-                                <rect key="frame" x="27" y="416" width="315" height="43"/>
+                                <rect key="frame" x="45" y="416" width="297" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vc8-ej-HHr" userLabel="City">
-                                <rect key="frame" x="27" y="467" width="315" height="43"/>
+                                <rect key="frame" x="45" y="467" width="297" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m54-zY-Dd2" userLabel="Logo">
-                                <rect key="frame" x="102" y="115" width="188" height="180"/>
+                                <rect key="frame" x="102" y="135" width="188" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mie-QU-Ues"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Gas Station Details" id="GCa-JT-Cni"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3S-mT-2GG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
