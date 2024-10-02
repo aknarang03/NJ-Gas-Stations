@@ -38,7 +38,7 @@ class GasPumpsModel {
     
     var gasPumps:[GasPump] = []
     
-    var imageAssetNames = [
+    var brandNames = [
         "76",
         "bp",
         "chevron",
@@ -62,6 +62,25 @@ class GasPumpsModel {
         
     private init () {
         readPumpsData()
+    }
+    
+    func getImage(gasStationName: String) -> String {
+        
+        var asset : String
+        let searchString = gasStationName.lowercased().replacingOccurrences(of: " ", with: "_")
+
+        for assetName in brandNames {
+            if (searchString.contains(assetName)) {
+                // found
+                asset = assetName
+                return asset
+            }
+        }
+        
+        // not found
+        asset = "generic"
+        return asset
+
     }
     
     func readPumpsData() {

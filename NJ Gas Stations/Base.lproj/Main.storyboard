@@ -93,7 +93,7 @@
                             <outlet property="delegate" destination="EEJ-Pe-2gN" id="1yi-DT-aIF"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="AKB-Ox-ar6"/>
+                    <navigationItem key="navigationItem" title="NJ Gas Stations" id="AKB-Ox-ar6"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PoA-Tb-xB8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -120,7 +120,7 @@
     </scenes>
     <resources>
         <image name="arrowtriangle.right" catalog="system" width="128" height="113"/>
-        <image name="generic" width="840" height="646"/>
+        <image name="generic" width="545" height="545"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
