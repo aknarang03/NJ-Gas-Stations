@@ -86,7 +86,6 @@
                                     <outlet property="logo" destination="pPv-3l-4dP" id="6Do-WZ-xyM"/>
                                     <outlet property="name" destination="KpN-bm-7g6" id="w9S-qd-5Lz"/>
                                     <outlet property="price" destination="4Wi-3I-27w" id="2lI-ED-tCo"/>
-                                    <segue destination="lta-9r-CCf" kind="show" id="Vpe-Zt-R6H"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -96,6 +95,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="NJ Gas Stations" id="AKB-Ox-ar6"/>
+                    <connections>
+                        <segue destination="lta-9r-CCf" kind="show" identifier="detailSegue" destinationCreationSelector="detail" id="sb4-Lb-Upg"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PoA-Tb-xB8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -109,10 +111,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="KQ5-I4-P8r" userLabel="Price Slider">
-                                <rect key="frame" x="43" y="349" width="213" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tc-Mt-3WO" userLabel="Price">
                                 <rect key="frame" x="275" y="342" width="102" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -138,11 +136,22 @@
                                 <rect key="frame" x="102" y="135" width="188" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="KQ5-I4-P8r" userLabel="Price Slider">
+                                <rect key="frame" x="43" y="349" width="213" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mie-QU-Ues"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Gas Station Details" id="GCa-JT-Cni"/>
+                    <connections>
+                        <outlet property="address" destination="QAH-F6-MeW" id="VEB-wv-z19"/>
+                        <outlet property="city" destination="vc8-ej-HHr" id="Ski-dJ-mth"/>
+                        <outlet property="logo" destination="m54-zY-Dd2" id="EZs-nX-8ma"/>
+                        <outlet property="price" destination="1tc-Mt-3WO" id="foz-xf-cnT"/>
+                        <outlet property="slider" destination="KQ5-I4-P8r" id="CY3-Cr-VdI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3S-mT-2GG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

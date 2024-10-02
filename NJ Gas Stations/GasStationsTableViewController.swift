@@ -19,6 +19,11 @@ class GasStationsTableViewController: UITableViewController {
         self.tableView.reloadData()
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        print ("view disappeared")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -55,6 +60,20 @@ class GasStationsTableViewController: UITableViewController {
         cell.logo.image = UIImage(named:assetName)
         
         return cell
+        
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedStationId = gasStations[indexPath.row].objectId
+        performSegue(withIdentifier: "detailSegue", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if (segue.identifier == "detailSegue") {
+            let destinationViewController = segue.destination as! GasStationDetailViewController
+            destinationViewController.showGasStationId = selectedStationId
+        }
         
     }
     
