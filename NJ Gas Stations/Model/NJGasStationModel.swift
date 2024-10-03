@@ -70,11 +70,15 @@ class GasPumpsModel {
         let searchString = gasStationName.lowercased().replacingOccurrences(of: " ", with: "_")
 
         for assetName in brandNames {
+            
             if (searchString.contains(assetName)) {
+                
                 // found
                 asset = assetName
                 return asset
+                
             }
+            
         }
         
         // not found
@@ -84,25 +88,29 @@ class GasPumpsModel {
     }
     
     func readPumpsData() {
+        
         if let filename = Bundle.main.path(forResource: "NJ-GasStations", ofType: "json") {
+            
             do {
                 let jsonStr  = try String (contentsOfFile: filename, encoding: .utf8)
-                // print (jsonStr)
                 let jsonData = jsonStr.data(using: .utf8)!
                 gasPumps = try! JSONDecoder().decode([GasPump].self, from: jsonData)
-            } catch {
+            }
+            
+            catch {
                 print("The file could not be loaded")
             }
+            
         } else {
             print ("The file could not be found")
         }
+        
     }
     
     func getPumps() -> [GasPump] {
         return self.gasPumps
     }
     
-    // 1. get gas pump info - You need to implement this method
     func getGasPumpInfo (objectId: Int) -> GasPump? {
         if let gasPump = gasPumps.first(where: {$0.objectId == objectId}) {
             return gasPump
@@ -111,7 +119,6 @@ class GasPumpsModel {
         }
     }
         
-    // 2. update the gas pump price - You need to implement method
     func updateGasPumpPrice (objectId: Int, newPrice price: Double) -> Bool {
         if let index = gasPumps.firstIndex(where: {$0.objectId == objectId}) {
             gasPumps[index].price = price
