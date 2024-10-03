@@ -37,6 +37,8 @@ class GasStationDetailViewController: UIViewController {
                 address.text = selectedStation?.address
                 // also add line 2 if it exists
                 city.text = selectedStation?.city
+                slider.value = Float(selectedStation!.price)
+                price.text = String(format: "$%.2f", selectedStation!.price)
             }
         }
     }
@@ -44,11 +46,9 @@ class GasStationDetailViewController: UIViewController {
     @IBAction func priceSliderChange(_ sender: UISlider) {
         let priceValue = sender.value
         price.text = String (format: "$%.2f", priceValue)
+        if (selectedStation != nil) {
+            let _ = gasStationModel.updateGasPumpPrice(objectId: selectedStation!.objectId, newPrice: Double(priceValue))
+        }
     }
-    
-//    @IBAction func sliderValueSet(_ sender: UISlider) {
-//        let fillValue = sender.value
-//        price.text = String (format: "%.2f", fillValue)
-//    }
     
 }
