@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -136,9 +137,13 @@
                                 <rect key="frame" x="102" y="135" width="188" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="KQ5-I4-P8r" userLabel="Price Slider">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="9.9900000000000002" maximumValueImage="10.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="KQ5-I4-P8r" userLabel="Price Slider">
                                 <rect key="frame" x="43" y="349" width="213" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <imageReference key="minimumValueImage" image="0.circle.fill" catalog="system" variableValue="5.5511151231257827e-17"/>
+                                <connections>
+                                    <action selector="priceSliderChange:" destination="lta-9r-CCf" eventType="valueChanged" id="l00-ji-d8G"/>
+                                </connections>
                             </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mie-QU-Ues"/>
@@ -177,13 +182,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="0.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="10.circle.fill" catalog="system" width="128" height="123"/>
         <image name="arrowtriangle.right" catalog="system" width="128" height="113"/>
         <image name="generic" width="545" height="545"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
